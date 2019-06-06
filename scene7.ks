@@ -117,4 +117,10 @@
 唾を、飲み込んだ。
 
 [eval exp "tf.dead = sf.dead + sf.sdead + sf.food + sf.killed"]
-[if ]
+[if exp "tf.dead>11"]
+いや、それにしても多いな。
+[elseif exp "tf.dead>4"]
+感慨深いな。
+[else]
+こう考えてみると意外と短かったのか。
+[endif]

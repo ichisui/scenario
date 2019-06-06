@@ -31,9 +31,9 @@
 
 何が目に入った？
 [glink x="320" y="100" width="200" text="赤い花" target="*part1" color="red"]
-[glink x="320" y="300" width="200" text="青緑の石" target="*part2" color="green"]
-[glink x="320" y="500" width="200" text="黄色い湯のみ" target="*part3" color="yellow"]
-[glink x="320" y="700" width="200" text="青い花" jumpstorage="scene5.ks" color="blue"]
+[glink x="320" y="200" width="200" text="青緑の石" target="*part2" color="green"]
+[glink x="320" y="300" width="200" text="黄色い湯のみ" target="*part3" color="orange"]
+[glink x="320" y="400" width="200" text="青い花" storage="scene5.ks" color="blue"]
 [s]
 
 *part1

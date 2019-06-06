@@ -8,9 +8,9 @@
 
 どこを見て、お礼を言うべきか
 [glink x="320" y="100" width="200" text="青い花を見る" target="*part1" color="red"]
-[glink x="320" y="300" width="200" text="山姥切の目を見る" target="*part2" color="green"]
-[glink x="320" y="500" width="200" text="地面を見る" target="*part3" color="yellow"]
-
+[glink x="320" y="200" width="200" text="山姥切の目を見る" target="*part2" color="green"]
+[glink x="320" y="300" width="200" text="地面を見る" target="*part3" color="orange"]
+[s]
 
 *part1
 
