@@ -23,7 +23,7 @@
 [endmacro]
 
 [macro name=k]
-[r][l]
+[l][r]
 [endmacro]
 
 [if exp="sf.dead==null"]
@@ -42,7 +42,7 @@
 ;自刃エンド
 
 [if exp=sf.killed==null]
-[eval exp ="sf.killed=0"]
+[eval exp="sf.killed=0"]
 [endif]
 ;審神者に殺されエンド（基本的にちょーぎさんが記憶を持つ（与り知らぬ場所で殺された場合は知らない。知ることができない）
 
