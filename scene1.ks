@@ -316,7 +316,7 @@ Bad End[p]
 
 
 [free_filter layer="base"]
-ここから先は筋肉劇場です。本編の空気を壊したくない方はスルーしてください。[r]
+ここから先は筋肉劇場です。[r]本編の空気を壊したくない方はスルーしてください。[r]
 アドバイスを受けますか？[l]
 [glink x="320" y="300" width="200" text="Yes" target="*part1" color="green"]
 [glink x="320" y="400" width="200" text="No" target="*part2" color="red"]
