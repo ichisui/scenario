@@ -55,7 +55,7 @@
 [endif]
 
 *通常のシナリオ
-[novel]
+[mode_novel]
 俺の名前は、山姥切国広。[l][r]
 修行も済ませ、主の刀となった。練度も順調に上げていた。[r]
 修行前に本丸に来た山姥切長義とも、上手くやっていける様になっていた。[l][r]
@@ -315,18 +315,16 @@
 Bad End[p]
 
 
-[free_filter layer="base"]
-ここから先は筋肉劇場です。[r]本編の空気を壊したくない方はスルーしてください。[r]
-アドバイスを受けますか？[l]
+[muscle_navi]
 [glink x="320" y="300" width="200" text="Yes" target="*part1" color="green"]
 [glink x="320" y="400" width="200" text="No" target="*part2" color="red"]
 [s]
 
 *part1
 ;道場に変更
-@bg storage ="kendoujyou000.jpg" time=100
+[change_dojo]
 ;ウィンドウメッセージに変更
-[talk]
+[mode_talk]
 [chara_show name="horikawa"]
 #horikawa
 久しぶりだね！兄弟！元気にしてた？[p]
@@ -352,7 +350,7 @@ Bad End[p]
 [filter layer="all" brightness="0"]
 初回だから仕方ないよね！[p]
 
-[novel]
+[mode_novel]
 [chara_hide_all]
 @bg storage="black.jpg"
 [free_filter]

@@ -1,5 +1,5 @@
 
-[novel]
+[mode_novel]
 「久しぶりだね、偽物くん」[l][r][r]
 
 気が付けば、俺は本丸に立っていた。[l][r]
@@ -145,18 +145,16 @@ Bad End[p]
 
 [eval exp="sf.food = sf.food + 1"]
 
-[free_filter layer="base"]
-ここから先は筋肉劇場です。[r]本編の空気を壊したくない方はスルーしてください。[r]
-アドバイスを受けますか？[l]
+[muscle_navi]
 [glink x="320" y="300" width="200" text="Yes" target="*part1-d" color="green"]
 [glink x="320" y="400" width="200" text="No" storage="title.ks" color="red"]
 [s]
 
 *part1-d
 ;道場に変更
-@bg storage ="kendoujyou000.jpg" time=100
+[change_dojo]
 
-[talk]
+[mode_talk]
 #horikawa
 [chara_show name="horikawa"]
 [chara_show name="yamabusi"]
@@ -176,7 +174,7 @@ Bad End[p]
 #horikawa
 「じゃあまたね、兄弟！」[p]
 [filter layer="all" brightness="0"]
-[novel]
+[mode_novel]
 [chara_hide_all]
 @bg storage="black.jpg"
 [free_filter]
@@ -185,7 +183,7 @@ Bad End[p]
 
 
 *part2
-[novel]
+[mode_novel]
 いつからあいつのご飯ではなければ、いけなかったのか…[r]
 まずは、それを回避しよう。[k][r]
 
@@ -226,17 +224,16 @@ Bad End[p]
 
 [eval exp="sf.food = sf.food + 1"]
 
-ここから先は筋肉劇場です。[r]本編の空気を壊したくない方はスルーしてください。[r]
-アドバイスを受けますか？[l]
+[muscle_navi]
 [glink x="320" y="300" width="200" text="Yes" target="*part2-d" color="green"]
 [glink x="320" y="400" width="200" text="No" storage="title.ks" color="red"]
 [s]
 
 *part2-d
 ;道場に変更
-@bg storage ="kendoujyou000.jpg" time=100
+[change_dojo]
 
-[talk]
+[mode_talk]
 #horikawa
 [chara_show name="horikawa"]
 [chara_show name="yamabusi"]
@@ -253,7 +250,7 @@ Bad End[p]
 #horikawa
 「じゃあまたね、兄弟！」[p]
 [filter layer="all" brightness="0"]
-[novel]
+[mode_novel]
 [chara_hide_all]
 @bg storage="black.jpg"
 [free_filter]

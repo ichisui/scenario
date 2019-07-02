@@ -10,18 +10,37 @@
 @call storage="tyrano.ks"
 
 ;会話モード
-[macro name=talk]
+[macro name=mode_talk]
 @layopt layer=message1 visible=false
 [current layer="message0"]
 @layopt layer=message0 visible=true
 [endmacro]
 
-[macro name=novel]
+;小説モード
+[macro name=mode_novel]
 @layopt layer=message0 visible=false
 [current layer="message1"]
 @layopt layer=message1 visible=true
 [endmacro]
 
+;筋肉道場誘導
+[macro name=muscle_navi]
+[free_filter layer="base"]
+ここから先は筋肉劇場です。[r]
+本編の空気を壊したくない方はスルーしてください。[r]
+アドバイスを受けますか？[l]
+
+;コピペ用ボタン、個別に使用
+;[glink x="320" y="300" width="200" text="Yes" target="*part1" color="green"]
+;[glink x="320" y="400" width="200" text="No" target="*part2" color="red"]
+[endmacro]
+
+;背景を道場に変更
+[macro name=change_dojo]
+@bg storage ="kendoujyou000.jpg" time=100
+[endmacro]
+
+;クリック
 [macro name=k]
 [l][r]
 [endmacro]
