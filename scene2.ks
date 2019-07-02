@@ -1,5 +1,5 @@
 
-[message1]
+[novel]
 「久しぶりだね、偽物くん」[l][r][r]
 
 気が付けば、俺は本丸に立っていた。[l][r]
@@ -156,7 +156,7 @@ Bad End[p]
 ;道場に変更
 @bg storage ="kendoujyou000.jpg" time=100
 
-[message0]
+[talk]
 #horikawa
 [chara_show name="horikawa"]
 [chara_show name="yamabusi"]
@@ -176,7 +176,7 @@ Bad End[p]
 #horikawa
 「じゃあまたね、兄弟！」[p]
 [filter layer="all" brightness="0"]
-[message1]
+[novel]
 [chara_hide_all]
 @bg storage="black.jpg"
 [free_filter]
@@ -185,7 +185,7 @@ Bad End[p]
 
 
 *part2
-[message1]
+[novel]
 いつからあいつのご飯ではなければ、いけなかったのか…[r]
 まずは、それを回避しよう。[k][r]
 
@@ -236,7 +236,7 @@ Bad End[p]
 ;道場に変更
 @bg storage ="kendoujyou000.jpg" time=100
 
-[message0]
+[talk]
 #horikawa
 [chara_show name="horikawa"]
 [chara_show name="yamabusi"]
@@ -253,7 +253,7 @@ Bad End[p]
 #horikawa
 「じゃあまたね、兄弟！」[p]
 [filter layer="all" brightness="0"]
-[message1]
+[novel]
 [chara_hide_all]
 @bg storage="black.jpg"
 [free_filter]

@@ -10,13 +10,13 @@
 @call storage="tyrano.ks"
 
 ;会話モード
-[macro name=message0]
+[macro name=talk]
 @layopt layer=message1 visible=false
 [current layer="message0"]
 @layopt layer=message0 visible=true
 [endmacro]
 
-[macro name=message1]
+[macro name=novel]
 @layopt layer=message0 visible=false
 [current layer="message1"]
 @layopt layer=message1 visible=true

@@ -55,7 +55,7 @@
 [endif]
 
 *通常のシナリオ
-[message1]
+[novel]
 俺の名前は、山姥切国広。[l][r]
 修行も済ませ、主の刀となった。練度も順調に上げていた。[r]
 修行前に本丸に来た山姥切長義とも、上手くやっていける様になっていた。[l][r]
@@ -326,7 +326,7 @@ Bad End[p]
 ;道場に変更
 @bg storage ="kendoujyou000.jpg" time=100
 ;ウィンドウメッセージに変更
-[message0]
+[talk]
 [chara_show name="horikawa"]
 #horikawa
 久しぶりだね！兄弟！元気にしてた？[p]
@@ -352,7 +352,7 @@ Bad End[p]
 [filter layer="all" brightness="0"]
 初回だから仕方ないよね！[p]
 
-[message1]
+[novel]
 [chara_hide_all]
 @bg storage="black.jpg"
 [free_filter]
