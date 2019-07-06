@@ -23,7 +23,7 @@
 [glink x="320" y="200" width="200" text="山姥切のご飯" target="*part1" color="blue"]
 [glink x="320" y="300" width="200" text="山姥切の『普通』のご飯" target="*part2" color="red"]
 [glink x="320" y="400" width="200" text="食べ物以外の話" storage = scene3.ks color="green" cond="sf.food>0"]
-[glink x="320" y="500" width="200" text="山姥切に告白する" storage = scene3.ks target="*part8" cond="sf.sdead>0"]
+[glink x="320" y="500" width="200" text="山姥切に告白する" storage = scene3.ks target="*part8" color="pink" cond="sf.sdead>0"]
 
 [s]
 *part1
