@@ -65,8 +65,13 @@
 [endif]
 ;審神者に殺されエンド（基本的にちょーぎさんが記憶を持つ（与り知らぬ場所で殺された場合は知らない。知ることができない）
 
-[if exp="sf.search==undefined"]
-[eval exp="sf.search=false"]
+[if exp="sf.isGetKumihimo==undefined"]
+[eval exp="sf.isGetKumihimo=false"]
+[endif]
+;筋肉道場6、組紐を受け取ったエンド
+
+[if exp="sf.isSearch==undefined"]
+[eval exp="sf.isSearch=false"]
 [endif]
 ;エンド１３をチェック
 
