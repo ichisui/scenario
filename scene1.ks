@@ -41,6 +41,8 @@
 [chara_new name="yamabusi" storage="chara/yamabushi/normal.png" width="400" hight="600" jname="山伏国広"]
 ;堀川
 [chara_new name="horikawa" storage="chara/horikawa/normal.png" width="400" hight="600" jname="堀川国広"]
+;長義モドキ（山姥切長義）
+[chara_new name="chogimodoki" storage="chara/kunihiro/normal.png" width="400" hight="600" jname="螻ｱ蟋･蛻?聞鄒ｩ"]
 
 
 
